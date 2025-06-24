@@ -114,7 +114,7 @@ export default function Home() {
               <li><b>Limitation of Liability</b><br />Viwaad is provided &quot;as is.&quot; We are not liable for any content posted by users or for any damages resulting from platform use.</li>
               <li><b>Governing Law</b><br />These Terms are governed by the laws of India. Disputes will be subject to exclusive jurisdiction of the courts located in [Your City, India].</li>
               <li><b>Grievance Redressal</b><br />If you have complaints or grievances regarding content or any issue, please contact:<br />
-                <span className="block mt-2">Effective Date: May 2nd 2025<br />Grievance Officer: Mr. Keerthi Kadam<br />Contact: <a href="mailto:keerthikadam1@gmail.com" className="underline">keerthikadam1@gmail.com</a><br />We will respond within 15 days as per applicable IT rules.</span>
+                <span className="block mt-2">Effective Date: May 2nd 2025<br />Grievance Officer: Mr. Keerthi Kadam<br />Contact: <a href="mailto:hi@viwaad.com" className="underline">hi@viwaad.com</a><br />We will respond within 15 days as per applicable IT rules.</span>
               </li>
             </ol>
           </div>
@@ -164,7 +164,7 @@ export default function Home() {
               <li><b>Data Security</b><br />We implement technical and organizational measures to protect your data. However, no method of transmission over the internet is completely secure.</li>
               <li><b>Updates to this Policy</b><br />We may update this Privacy Policy occasionally. Continued use of Viwaad after updates means you accept the revised policy.</li>
               <li><b>Contact Us</b><br />
-                <span className="block mt-2">Effective Date: May 2nd 2025<br />Grievance Officer: Mr. Keerthi Kadam<br />Contact: <a href="mailto:keerthikadam1@gmail.com" className="underline">keerthikadam1@gmail.com</a><br />We aim to respond within 15 days in compliance with Indian IT laws.</span>
+                <span className="block mt-2">Effective Date: May 2nd 2025<br />Grievance Officer: Mr. Keerthi Kadam<br />Contact: <a href="mailto:hi@viwaad.com" className="underline">hi@viwaad.com</a><br />We aim to respond within 15 days in compliance with Indian IT laws.</span>
               </li>
             </ol>
           </div>

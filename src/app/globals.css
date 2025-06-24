@@ -1,0 +1,90 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-geist-sans), Arial, Helvetica, sans-serif;
+}
+
+.dark body {
+  background: #0a0a0a;
+  color: #ededed;
+}
+
+/* Vivaad custom styles */
+.card {
+  @apply bg-[#18181b] text-[#FFC107] rounded-2xl shadow-lg p-8 mb-8 border-2 border-[#FFC107]/40 transition-colors;
+}
+
+.heading {
+  @apply text-3xl sm:text-4xl font-extrabold mb-4 tracking-tight font-sans;
+}
+
+.subheading {
+  @apply text-xl sm:text-2xl font-bold mb-2 font-sans;
+}
+
+.button-primary {
+  @apply rounded-full px-6 py-2 font-bold text-black bg-[#FFC107] hover:bg-[#FFA500] transition-colors shadow-sm font-sans;
+}
+.dark .button-primary {
+  @apply text-[#171717] bg-[#FFC107] hover:bg-[#FFA500];
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slideUp {
+  from { opacity: 0; transform: translateY(40px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes glow {
+  0% { box-shadow: 0 0 16px 4px #FFC10744; }
+  50% { box-shadow: 0 0 32px 8px #FFC10799; }
+  100% { box-shadow: 0 0 16px 4px #FFC10744; }
+}
+
+.fade-in {
+  animation: fadeIn 1s ease-out;
+}
+.slide-up {
+  animation: slideUp 0.8s cubic-bezier(0.4,0,0.2,1);
+}
+.glow-card {
+  animation: glow 2.5s infinite alternate;
+}
+.animated-underline {
+  position: relative;
+}
+.animated-underline::after {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0; right: 0; bottom: -4px;
+  height: 4px;
+  background: linear-gradient(90deg, #FFC107, #FFA500, #FFC107);
+  border-radius: 2px;
+  animation: fadeIn 1.2s 0.2s both;
+}

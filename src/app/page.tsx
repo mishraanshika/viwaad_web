@@ -12,7 +12,7 @@ export default function Home() {
       <div className="w-full max-w-none flex flex-col md:flex-row items-stretch justify-center gap-16 mt-8 mb-12 fade-in py-24 md:py-36 min-h-[420px]">
         {/* Welcome Card */}
         <div className="card w-full max-w-2xl flex-shrink-0 glow-card slide-up bg-black border-2 border-[#FFC107]/40 relative overflow-hidden h-full flex flex-col justify-center">
-          <h1 className="heading text-[#FFC107] animated-underline">Welcome to Vivaad</h1>
+          <h1 className="heading text-[#FFC107] animated-underline">Welcome to Viwaad</h1>
           <p className="mb-6 text-lg text-[#FFC107] font-sans">A modern platform for open discussion and clarity. Explore our policies and learn more about us below.</p>
           <div className="flex flex-col sm:flex-row gap-4 mb-2">
             <a href="#about" className="button-primary flex items-center gap-2 justify-center transition-transform hover:scale-105"><FaUserFriends /> About</a>
@@ -44,11 +44,11 @@ export default function Home() {
       <section id="about" className="w-full max-w-6xl mx-auto mb-16 fade-in px-2 sm:px-0">
         <div className="card bg-black border-2 border-[#FFC107]/40 relative overflow-hidden slide-up">
           <h2 className="text-3xl sm:text-4xl font-extrabold mb-4 text-[#FFC107] flex items-center gap-2 animated-underline">
-            <span>About Vivaad</span>
+            <span>About Viwaad</span>
             <FaUserFriends className="inline text-[#FFC107] text-2xl" />
           </h2>
           <p className="mb-4 text-lg text-[#FFC107] font-sans">
-            <span className="font-bold text-[#FFC107]">Vivaad</span> is your platform for spirited, structured, and impactful debates. Designed for those who love to voice their opinions and challenge ideas, Vivaad brings people together to engage in meaningful conversations on trending topics, social issues, and everyday curiosities. Whether you&apos;re passionately <span className="text-green-400 font-bold">for</span> or strongly <span className="text-red-400 font-bold">against</span>—your voice matters here.
+            <span className="font-bold text-[#FFC107]">Viwaad</span> is your platform for spirited, structured, and impactful debates. Designed for those who love to voice their opinions and challenge ideas, Viwaad brings people together to engage in meaningful conversations on trending topics, social issues, and everyday curiosities. Whether you&apos;re passionately <span className="text-green-400 font-bold">for</span> or strongly <span className="text-red-400 font-bold">against</span>—your voice matters here.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 mb-4">
             <div className="flex-1 bg-green-600/20 dark:bg-green-900/40 rounded-xl p-4 flex items-center gap-2">
@@ -61,16 +61,16 @@ export default function Home() {
             </div>
           </div>
           <p className="mb-4 text-[#FFC107] font-sans">
-            Want to express yourself freely? <span className="font-bold">Vivaad allows you to debate anonymously</span>, encouraging honest, bold conversations without fear of judgment. Be real, be raw—without revealing your identity.
+            Want to express yourself freely? <span className="font-bold">Viwaad allows you to debate anonymously</span>, encouraging honest, bold conversations without fear of judgment. Be real, be raw—without revealing your identity.
           </p>
           <p className="mb-4 text-[#FFC107] font-sans">
-            But we didn&apos;t stop at debates. Vivaad also features a <span className="font-bold text-[#FFC107]">crowd-powered ratings tab</span>, where users can give <span className="text-green-400 font-bold">+5</span> to <span className="text-red-400 font-bold">-5</span> star ratings in green and red formats for products, services, and even ideas—capturing sentiment in a powerful, visual way.
+            But we didn&apos;t stop at debates. Viwaad also features a <span className="font-bold text-[#FFC107]">crowd-powered ratings tab</span>, where users can give <span className="text-green-400 font-bold">+5</span> to <span className="text-red-400 font-bold">-5</span> star ratings in green and red formats for products, services, and even ideas—capturing sentiment in a powerful, visual way.
           </p>
           <p className="mb-4 text-[#FFC107] font-sans">
-            At Vivaad, we believe diverse opinions fuel innovation and progress. Whether you&apos;re a passionate debater, a curious thinker, or someone who just wants to test perspectives—Vivaad is your space.
+            At Viwaad, we believe diverse opinions fuel innovation and progress. Whether you&apos;re a passionate debater, a curious thinker, or someone who just wants to test perspectives—Viwaad is your space.
           </p>
           <div className="flex flex-col sm:flex-row gap-2 items-center mt-6">
-            <span className="text-xl font-bold text-[#FFC107]">Join the debate. Speak your truth. Welcome to Vivaad.</span>
+            <span className="text-xl font-bold text-[#FFC107]">Join the debate. Speak your truth. Welcome to Viwaad.</span>
           </div>
         </div>
       </section>

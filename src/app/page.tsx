@@ -48,26 +48,26 @@ export default function Home() {
             <FaUserFriends className="inline text-[#FFC107] text-2xl" />
           </h2>
           <p className="mb-4 text-lg text-[#FFC107] font-sans">
-            <span className="font-bold text-[#FFC107]">Vivaad</span> is your platform for spirited, structured, and impactful debates. Designed for those who love to voice their opinions and challenge ideas, Vivaad brings people together to engage in meaningful conversations on trending topics, social issues, and everyday curiosities. Whether you're passionately <span className="text-green-400 font-bold">for</span> or strongly <span className="text-red-400 font-bold">against</span>—your voice matters here.
+            <span className="font-bold text-[#FFC107]">Vivaad</span> is your platform for spirited, structured, and impactful debates. Designed for those who love to voice their opinions and challenge ideas, Vivaad brings people together to engage in meaningful conversations on trending topics, social issues, and everyday curiosities. Whether you&apos;re passionately <span className="text-green-400 font-bold">for</span> or strongly <span className="text-red-400 font-bold">against</span>—your voice matters here.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 mb-4">
             <div className="flex-1 bg-green-600/20 dark:bg-green-900/40 rounded-xl p-4 flex items-center gap-2">
               <span className="inline-block w-4 h-4 bg-green-500 rounded-full"></span>
-              <span className="font-semibold text-green-300">Green commentary boxes represent "for" arguments</span>
+              <span className="font-semibold text-green-300">Green commentary boxes represent &quot;for&quot; arguments</span>
             </div>
             <div className="flex-1 bg-red-600/20 dark:bg-red-900/40 rounded-xl p-4 flex items-center gap-2">
               <span className="inline-block w-4 h-4 bg-red-500 rounded-full"></span>
-              <span className="font-semibold text-red-300">Red commentary boxes reflect "against" views</span>
+              <span className="font-semibold text-red-300">Red commentary boxes reflect &quot;against&quot; views</span>
             </div>
           </div>
           <p className="mb-4 text-[#FFC107] font-sans">
             Want to express yourself freely? <span className="font-bold">Vivaad allows you to debate anonymously</span>, encouraging honest, bold conversations without fear of judgment. Be real, be raw—without revealing your identity.
           </p>
           <p className="mb-4 text-[#FFC107] font-sans">
-            But we didn't stop at debates. Vivaad also features a <span className="font-bold text-[#FFC107]">crowd-powered ratings tab</span>, where users can give <span className="text-green-400 font-bold">+5</span> to <span className="text-red-400 font-bold">-5</span> star ratings in green and red formats for products, services, and even ideas—capturing sentiment in a powerful, visual way.
+            But we didn&apos;t stop at debates. Vivaad also features a <span className="font-bold text-[#FFC107]">crowd-powered ratings tab</span>, where users can give <span className="text-green-400 font-bold">+5</span> to <span className="text-red-400 font-bold">-5</span> star ratings in green and red formats for products, services, and even ideas—capturing sentiment in a powerful, visual way.
           </p>
           <p className="mb-4 text-[#FFC107] font-sans">
-            At Vivaad, we believe diverse opinions fuel innovation and progress. Whether you're a passionate debater, a curious thinker, or someone who just wants to test perspectives—Vivaad is your space.
+            At Vivaad, we believe diverse opinions fuel innovation and progress. Whether you&apos;re a passionate debater, a curious thinker, or someone who just wants to test perspectives—Vivaad is your space.
           </p>
           <div className="flex flex-col sm:flex-row gap-2 items-center mt-6">
             <span className="text-xl font-bold text-[#FFC107]">Join the debate. Speak your truth. Welcome to Vivaad.</span>
@@ -111,7 +111,7 @@ export default function Home() {
               <li><b>Ratings System</b><br />Users can rate posts, products, or content from +5 to -5 stars. Misuse or manipulation of the rating system (fake accounts, coordinated votes) may lead to suspension.</li>
               <li><b>Privacy</b><br />Please refer to our Privacy Policy for how we collect, use, and store data. We take user anonymity and data protection seriously.</li>
               <li><b>Account Suspension/Termination</b><br />Viwaad reserves the right to suspend or terminate accounts for violations of these Terms, applicable laws, or our Community Guidelines.</li>
-              <li><b>Limitation of Liability</b><br />Viwaad is provided "as is." We are not liable for any content posted by users or for any damages resulting from platform use.</li>
+              <li><b>Limitation of Liability</b><br />Viwaad is provided &quot;as is.&quot; We are not liable for any content posted by users or for any damages resulting from platform use.</li>
               <li><b>Governing Law</b><br />These Terms are governed by the laws of India. Disputes will be subject to exclusive jurisdiction of the courts located in [Your City, India].</li>
               <li><b>Grievance Redressal</b><br />If you have complaints or grievances regarding content or any issue, please contact:<br />
                 <span className="block mt-2">Effective Date: May 2nd 2025<br />Grievance Officer: Mr. Keerthi Kadam<br />Contact: <a href="mailto:keerthikadam1@gmail.com" className="underline">keerthikadam1@gmail.com</a><br />We will respond within 15 days as per applicable IT rules.</span>
@@ -153,14 +153,14 @@ export default function Home() {
                   <li>To operate and improve our app.</li>
                   <li>To personalize user experience.</li>
                   <li>To moderate content and ensure community safety.</li>
-                  <li>To communicate with you if you've provided contact details.</li>
+                  <li>To communicate with you if you&apos;ve provided contact details.</li>
                 </ul>
               </li>
               <li><b>Data Sharing and Disclosure</b><br />We do not sell your personal data. We may share anonymized data for research or analytics. We may disclose data to comply with legal obligations or to protect user safety.</li>
               <li><b>Data Retention</b><br />We retain your data only for as long as necessary for legal, operational, or security reasons. Anonymous content may be stored indefinitely for platform insights.</li>
               <li><b>Cookies and Tracking Technologies</b><br />We may use cookies or similar technologies to track app usage for improvement and analytics. These do not collect personal data.</li>
               <li><b>Your Rights</b><br />You have the right to access, correct, or delete your personal data. For requests, contact the Grievance Officer listed below.</li>
-              <li><b>Children's Privacy</b><br />Viwaad is not intended for children under 13. We do not knowingly collect personal information from children.</li>
+              <li><b>Children&apos;s Privacy</b><br />Viwaad is not intended for children under 13. We do not knowingly collect personal information from children.</li>
               <li><b>Data Security</b><br />We implement technical and organizational measures to protect your data. However, no method of transmission over the internet is completely secure.</li>
               <li><b>Updates to this Policy</b><br />We may update this Privacy Policy occasionally. Continued use of Viwaad after updates means you accept the revised policy.</li>
               <li><b>Contact Us</b><br />

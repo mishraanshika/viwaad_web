@@ -1,0 +1,9 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.example.viwaad_1",
+    "sha256_cert_fingerprints":
+    ["8F:D2:6F:B3:5A:E4:BB:EF:DD:3C:57:F9:EF:6F:FC:1A:99:63:B5:F9:D8:75:71:5F:F7:42:64:75:51:AD:88:6D"]
+  }
+}]

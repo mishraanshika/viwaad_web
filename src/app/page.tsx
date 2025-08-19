@@ -162,6 +162,15 @@ export default function Home() {
               <li><b>Your Rights</b><br />You have the right to access, correct, or delete your personal data. For requests, contact the Grievance Officer listed below.</li>
               <li><b>Children&apos;s Privacy</b><br />Viwaad is not intended for children under 13. We do not knowingly collect personal information from children.</li>
               <li><b>Data Security</b><br />We implement technical and organizational measures to protect your data. However, no method of transmission over the internet is completely secure.</li>
+              <li><b>Child Safety and CSAE Policy</b><br />
+              <ul className="list-disc pl-6">
+                  <li>Our app Viwaad strictly prohibits any content, activity, or behavior related to CSAE.</li>
+                  <li>Users who engage in such behavior will be permanently banned and reported to authorities.</li>
+                  <li>We provide clear reporting mechanisms for harmful content.</li>
+                  <li>We comply with applicable laws and cooperate with law enforcement regarding CSAE cases.</li>
+                  <li>If you encounter any violation, please report it immediately by contacting the undersigned.</li>
+                </ul>
+                </li>
               <li><b>Updates to this Policy</b><br />We may update this Privacy Policy occasionally. Continued use of Viwaad after updates means you accept the revised policy.</li>
               <li><b>Contact Us</b><br />
                 <span className="block mt-2">Effective Date: May 2nd 2025<br />Grievance Officer: Mr. Keerthi Kadam<br />Contact: <a href="mailto:hi@viwaad.com" className="underline">hi@viwaad.com</a><br />We aim to respond within 15 days in compliance with Indian IT laws.</span>
